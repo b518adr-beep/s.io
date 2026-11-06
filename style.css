@@ -1,0 +1,83 @@
+/* External Custom Styling File for Abu Sahir Al-Shafei Website */
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #080f1e;
+    color: #f1f5f9;
+    overflow-x: hidden;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Light Mode Custom Styling Adjustments */
+body.light {
+    background-color: #f8fafc;
+    color: #0f172a;
+}
+
+body.light .glass-panel {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+body.light .text-slate-100,
+body.light .text-slate-200,
+body.light .text-slate-300 {
+    color: #1e293b;
+}
+
+body.light .text-slate-400,
+body.light .text-slate-500 {
+    color: #64748b;
+}
+
+body.light .bg-slate-950,
+body.light .bg-slate-900,
+body.light .bg-navyDark {
+    background-color: #ffffff;
+    color: #0f172a;
+}
+
+body.light .border-slate-800,
+body.light .border-slate-700 {
+    border-color: #e2e8f0;
+}
+
+body.light input,
+body.light textarea,
+body.light select {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    border-color: #cbd5e1;
+}
+
+.gold-gradient-text {
+    background: linear-gradient(135deg, #ffe07d 0%, #d4af37 50%, #94721c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.glass-panel {
+    background: rgba(13, 22, 41, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.6);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d4af37;
+    border-radius: 3px;
+}
